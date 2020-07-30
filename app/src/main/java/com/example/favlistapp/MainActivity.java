@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.InputType;
+import android.util.Log;
 import android.view.View;
 
 import android.view.Menu;
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 displayCreateCategoryDialog();
             }
         });
+
+
+        Log.i("TAG", "message");
 
     }
 
