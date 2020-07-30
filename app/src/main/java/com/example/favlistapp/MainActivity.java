@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private CategoryManager mCategoryManager = new CategoryManager(this);
 
-
+// this is a test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
